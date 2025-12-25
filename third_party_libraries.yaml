@@ -1,5 +1,5 @@
 # 第三方库配置文件
-version: "1.0.0"
+version: "1.0.1"
 description: "Third-party libraries inventory"
 
 libraries:
@@ -232,3 +232,10 @@ libraries:
     files:
       - zstd-1.5.7_aarch64.tar.gz
       - zstd-1.5.7_x86_64.tar.gz
+
+  - name: tzcam
+    version: "20250609"
+    architectures:
+      - aarch64
+    files:
+      - tzcam_20250609_aarch64.tar.gz
